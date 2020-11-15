@@ -28,6 +28,7 @@ public class Assignment1 {
 		case '%':
 			System.out.println(firstInt%secondInt);
 			break;
-		}
+		default:
+			System.out.println("operator not found");		}
 	}
 }
